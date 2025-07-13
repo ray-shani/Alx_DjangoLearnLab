@@ -14,3 +14,9 @@ print(f"Title: {retrieved_book.title}")
 print(f"Author: {retrieved_book.author}")
 print(f"Publication Year: {retrieved_book.publication_year}")
 print(f"ID: {retrieved_book.id}")
+
+# Expeted output
+Title: "1984"
+Author: George Orwell
+Publication Year: "1949"
+ID: 1

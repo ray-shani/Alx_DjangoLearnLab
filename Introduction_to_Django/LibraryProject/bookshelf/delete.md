@@ -21,3 +21,9 @@ if not all_books_after_deletion:
 else:
     for book in all_books_after_deletion:
         print(book)
+
+Expected Output:
+
+Book with ID 1 deleted.
+Number of books remaining: 0
+No books found in the database.

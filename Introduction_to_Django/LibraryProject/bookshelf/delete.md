@@ -7,10 +7,10 @@ from bookshelf.models import Book
 
 # Assuming the book to delete has ID 1 (from the create step).
 # In a real shell session, you would use the actual ID of the book you want to delete.
-book_to_delete = Book.objects.get(id=1)
+book1= Book.objects.get(id=1)
 
 # Delete the book instance from the database
-book_to_delete.delete()
+book.delete()
 print(f"Book with ID 1 deleted.")
 
 # Confirm deletion by trying to retrieve all books again

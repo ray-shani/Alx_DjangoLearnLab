@@ -3,7 +3,7 @@ from library.models import Book
 from datetime import date
 
 # 2. Create a Book instance
-book1 = Book(title="The Hitchhiker's Guide to the Galaxy", author="Douglas Adams", publication_date=date(1979, 10, 12))
+book1 = Book(title="1984", author="George Orwell", publication_year="1949")
 book1.save()
 print(f"Created Book ID: {book1.id}")
 
